@@ -3,96 +3,403 @@
     <script>
         window.location = "/ie.html";
     </script>
-<![endif]-->
-<!--[if IE 7 ]>    <html lang="pt-br" class="no-js ie7" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
-<!--[if IE 8 ]>    <html lang="pt-br" class="no-js ie8" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
-<!--[if IE 9 ]>    <html lang="pt-br" class="no-js ie9" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br" class="no-js" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+    <![endif]-->
+    <!--[if IE 7 ]>    <html lang="pt-br" class="no-js ie7" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
+    <!--[if IE 8 ]>    <html lang="pt-br" class="no-js ie8" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
+    <!--[if IE 9 ]>    <html lang="pt-br" class="no-js ie9" xmlns:fb="http://www.facebook.com/2008/fbml> <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br" class="no-js" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Título do site</title>
+        <title>Pablo, qual o nível?</title>
         <meta name="keywords" content="algumas, palavrinhas, sobre, projeto">
         <meta name="description" content="Tente não ultrapassar 150 caracteres na descrição.">
         <meta name="author" content="Plan B Comunicação">
         <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width">
-
-
         <link rel="shortcut icon" href="favicon.ico">
-
-        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
-
-        <link rel="stylesheet" href="css/screen.css">
-
+        <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
 
         <header>
-            Front-end
+            Front-end - Níveis
         </header>
 
         <div role="main" class="main">
-            <div class="headers">
-                <h2 class="titles">Especialide</h2>
-                <h2 class="titles">Nível</h2>
+            <div class="headers row-fluid">
+                <h2 class="titles span6">Especialide</h2>
+                <h2 class="titles span6">Nível</h2>
             </div>
-            <form action="" method="POST" id="skills-form">
+            <form action="" method="POST" id="skills-form" class="row-fluid">
 
                 <div class="skills-input">
-                    <input type="checkbox" name="html" id="html" value="4">
-                    <label for="html">HTML</label>
-                    <select name="" id="">
-                        <option value="10">10</option>
-                        <option value="20">20</option>
-                        <option value="30">30</option>
-                    </select>
+                    <div class="span6">
+                        <input type="checkbox" name="html" id="html" value="2">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div class="skills-input">
-                    <input type="checkbox" name="JS" id="JS" value="5">
-                    <label for="JS">JS</label>
-                    <select name="" id="">
-                        <option value="10">10</option>
-                        <option value="20">20</option>
-                        <option value="30">30</option>
-                    </select>
+                    <div class="span6">
+                        <input type="checkbox" name="html5" id="html5" value="3">
+                        <label for="html5">HTML5</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div class="skills-input">
-                    <input type="checkbox" name="css" id="css" value="6">
-                    <label for="css">HTML</label>
-                    <select name="" id="">
-                        <option value="10">10</option>
-                        <option value="20">20</option>
-                        <option value="30">30</option>
-                    </select>
+                    <div class="span6">
+                        <input type="checkbox" name="css" id="css" value="2">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
                 </div>
-                <button type="submit">mandar</button>
-            </form>
-            <div id="total">
-                
-            </div>
-        </div>
 
-        <footer>
-            <sub>Plan B 2013</sub>
-        </footer>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="css3" id="css3" value="3">
+                        <label for="css3">CSS3</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="responsive" id="responsive" value="3">
+                        <label for="responsive">Responsive</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
 
-        <script src="js/main.js"></script>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="seo" id="seo" value="3">
+                        <label for="seo">SEO</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="semantica" id="semantica" value="3">
+                        <label for="semantica">Semântica</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="tdd" id="tdd" value="5">
+                        <label for="tdd">TDD</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="js" id="js" value="6">
+                        <label for="js">JS</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="ajax" id="ajax" value="3">
+                        <label for="ajax">Ajax</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="jquery" id="jquery" value="8">
+                        <label for="jquery">jQuery</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="sass-less" id="sass-less" value="3">
+                        <label for="sass-less">SASS ou LESS</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="ember-angular-backbone" id="ember-angular-backbone" value="4">
+                        <label for="ember-angular-backbone">Ember, AngularJS ou Backbone</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="mvc" id="mvc" value="6">
+                        <label for="mvc">Conceito MVC</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="controle-versao" id="controle-versao" value="4">
+                        <label for="controle-versao">SVN/ GIT</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="php-rails-dotnet" id="php-rails-dotnet" value="1">
+                        <label for="php-rails-dotnet">PHP, Rails ou .NET</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="banco-relacional" id="banco-relacional" value="1">
+                        <label for="banco-relacional">Banco relacional</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="nodejs" id="nodejs" value="1">
+                        <label for="nodejs">NODEJS</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="banco-nosql" id="banco-nosql" value="1">
+                        <label for="banco-nosql">Banco noSQL</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="facebook" id="facebook" value="6">
+                        <label for="facebook">API Facebook</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="instagram" id="instagram" value="2">
+                        <label for="instagram">API Instagram</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="foursquare" id="foursquare" value="2">
+                        <label for="foursquare">API Foursquare</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="twitter" id="twitter" value="2">
+                        <label for="twitter">API Twitter</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="oauth" id="oauth" value="2">
+                        <label for="oauth">Oauth2</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="skills-input">
+                    <div class="span6">
+                        <input type="checkbox" name="ide" id="ide" value="5">
+                        <label for="ide">Dominio de uma IDE</label>
+                    </div>
+                    <div class="span6">
+                        <select name="" id="">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+
+<button type="submit">mandar</button>
+</form>
+<div id="total">
+
+</div>
+</div>
+
+<footer>
+    <sub>Plan B 2013</sub>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+<script src="js/main.js"></script>
+
+<script>
+var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+</body>
 </html>

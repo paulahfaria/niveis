@@ -6,12 +6,21 @@
 @import "bootstrap";
 
 
-.main{
-	background-color: red;
+$default-color: #1ABC9C;
+$text-color: #FFF;
+
+body{
+	background-color: $default-color;
+	color: $text-color;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+}
+header, .main, footer{
 	max-width: 1200px;
 	margin:auto;
 }
 
 input[type="checkbox"]{
-	// display: none;
+	// visibility: hidden;
 }
